@@ -1,14 +1,16 @@
-.greeting{
-
-text-align: center;
-padding-top: 100px;
-margin:auto;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+@keyframes anim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
-.image1{
-
-width: auto;
-height: 500px;
+.greeting{
+animation: anim 5s ease forwards;
+text-align: center;
+margin-top:200px;
+background-color: aquamarine;
+padding:auto;
 }
