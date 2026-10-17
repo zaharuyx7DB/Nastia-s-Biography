@@ -1,10 +1,15 @@
 .hero{
 
-background-image: url(Your-images/You.jpg);
+
 background-size: 100%;
 background-position:center ;
 min-height: 100vh;
-
+background-image: linear-gradient(
+    to right,
+    transparent,
+     black
+),
+url(Your-images/You.jpg);
 }
 body{
 
@@ -13,7 +18,9 @@ margin:0px;
 }
 
 .content-text h1{
-
+color:aliceblue;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 margin:0;
-
+text-align: right;
+padding-right:40vh ;
 }
