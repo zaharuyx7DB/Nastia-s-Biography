@@ -1,16 +1,13 @@
-@keyframes anim {
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
+.hero{
 
-.greeting{
-animation: anim 5s ease forwards;
-text-align: center;
-margin-top:200px;
-background-color: aquamarine;
-padding:auto;
+background-image: url(Your-images/You.jpg);
+background-size: 100%;
+background-position:center ;
+min-height: 100vh;
+
+}
+body{
+
+margin:50px;
+
 }
