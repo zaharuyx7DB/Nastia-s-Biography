@@ -8,6 +8,12 @@ min-height: 100vh;
 }
 body{
 
-margin:50px;
+margin:0px;
+
+}
+
+.content-text h1,a{
+
+margin:0;
 
 }
